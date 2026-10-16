@@ -1,0 +1,50 @@
+{
+ "deits": {
+  "model": "deit_small_patch16_224.fb_in1k",
+  "objective": "kl"
+ },
+ "deits_orin_cpu": {
+  "model": "deit_small_patch16_224.fb_in1k",
+  "objective": "kl"
+ },
+ "deitt": {
+  "model": "deit_tiny_patch16_224.fb_in1k",
+  "objective": "kl"
+ },
+ "deitb": {
+  "model": "deit_base_patch16_224.fb_in1k",
+  "objective": "kl"
+ },
+ "augs": {
+  "model": "vit_small_patch16_224.augreg_in21k_ft_in1k",
+  "objective": "kl"
+ },
+ "augb": {
+  "model": "vit_base_patch16_224.augreg_in21k_ft_in1k",
+  "objective": "kl"
+ },
+ "maeb": {
+  "model": "mae_vit_base_patch16_224.ft_in1k",
+  "objective": "kl"
+ },
+ "mael": {
+  "model": "mae_vit_large_patch16_224.ft_in1k",
+  "objective": "kl"
+ },
+ "d3s384": {
+  "model": "deit3_small_patch16_384.fb_in1k",
+  "objective": "kl"
+ },
+ "clipb16": {
+  "model": "vit_base_patch16_clip_224.openai",
+  "objective": "embed"
+ },
+ "blip": {
+  "model": "blip_itm_base_coco",
+  "objective": "embed"
+ },
+ "segvits": {
+  "model": "segmenter_vit-s_mask_ade20k",
+  "objective": "seg_kl"
+ }
+}

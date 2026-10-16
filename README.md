@@ -33,6 +33,10 @@ logits, n_in, k = vit(vit.normalize(images), thresholds)
 logits, counts = vit.forward_single(vit.normalize(images[:1]), thresholds[0])
 ```
 
+## Data
+
+The latency tables, the learned thresholds and the placement of every method on the budgets in the paper are in [`data/`](data/README.md).
+
 ## Citation
 
 ```
