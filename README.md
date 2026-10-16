@@ -39,11 +39,4 @@ The latency tables, the learned thresholds and the placement of every method on 
 
 ## Citation
 
-```
-@article{ishibashi2026thresholds,
-  title   = {Learning Token Merging Thresholds for Vision Transformers under a CPU Latency Budget},
-  author  = {Ishibashi, Ryuto and Meng, Lin},
-  journal = {Computers},
-  year    = {2026}
-}
-```
+The paper is under review. The citation will be added after publication.
